@@ -215,5 +215,6 @@ func twoSum(nums []int, target int) []int {
 			return []int{index, i}
 		}
 	}
+
 	return nil
 }
