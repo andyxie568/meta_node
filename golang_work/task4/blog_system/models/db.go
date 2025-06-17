@@ -33,5 +33,4 @@ func ConnectDB() {
 
 	log.Println("Connected to database")
 	DB.Logger = logger.Default.LogMode(logger.Info)
-	log.Println("Database migrated")
 }
